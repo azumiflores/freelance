@@ -1,0 +1,304 @@
+body{
+	padding: 0px !important;
+    margin: 0px !important;
+    font-family: ;
+  
+}
+header{
+	background-color: rgba(44, 62, 80, 0.92);
+	padding: 20px 0px;
+	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+header a{
+	color: white;
+}
+header a:hover{
+    color: green;
+    text-decoration: none;
+
+}
+nav a:hover{
+	color: ;
+	background-color: rgba(5, 5, 16, 0.64);
+	text-decoration: none;
+}
+header h1{
+	margin: 0%!important;
+	font-size: 2em;
+	line-height: 2;
+}
+/*barra*/
+nav ul li a{
+	line-height: 36px;
+	display: block;
+}
+ul{
+	list-style: none;
+}
+.nav  li a:hover{
+	background: rgba(5, 5, 16, 0.64);
+	color: green;
+}
+.nav-first ul li{
+	float: left;
+	margin: 11px 10px;
+}
+.navbar .navbar-brand {
+  font-size: 35px;
+  color: #444;
+}
+.navbar .navbar-toggle .icon-bar {
+  background: white;
+}
+.navbar-loartom{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/*aki termina*/
+.bg-green{
+	background-color: #25B181;
+}
+.bg-green h2{
+	/*text-align: center;*/
+	color: white;
+	font-size: 3em;
+    margin-top: 250px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bg-green i{
+	color: #FFFFFF;
+	font-size: 24px;
+	padding: 0% 0.5%;
+}
+.barra-white{
+	border: 2px solid #FFFFFF;
+	display: inline-block;
+	width: 80px;
+	margin-bottom: 5px;
+}
+.bg-green h4{
+	font-size: 1.5em;
+	color: #FFFFFF;
+	margin-top: 15px;
+	margin-bottom: 80px;
+	font-weight: lighter;
+}
+.portafolio i{
+	font-size: 24px;
+	color: ;
+}
+.portafolio{
+	margin-top: 50px ;
+   margin-bottom: 70px;
+}
+.portafolio h3{
+	font-weight: 600;
+	color: ;
+	font-size: 3em;
+}
+.portafolio img{
+	padding: ;
+}
+.barra-black{
+	border: 2px solid ;
+	display: inline-block;
+	width: 80px;
+	margin-bottom: 5px;
+}
+/*imagenes responsive*/
+.responsive-img{
+	width: 100%;
+}
+.mr-all{
+	margin: 15px 65px;
+}
+.pr{
+	padding-right: 18%;
+}
+.pl{
+    padding-left: 18%;
+}
+.pd-3{
+	padding: 0% 2%;
+}
+/*img hover*/
+.foto:hover img{
+   opacity: 10;
+   filter: alpha(opacity=4000);
+   opacity: 0.1;
+   filter: alpha(opacity=40);
+}
+.foto:hover {
+	background:  #0a212f;
+	background-image: url(../img/lupa.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*aki termina*/
+.about{
+	background-color: #66cdab;
+	text-transform: uppercase;
+	padding: 30px 0px;
+}
+.about h3{
+	color: #FFF;
+	font-size: 2.5em;
+	font-size:bolder;
+}
+.about i{
+	color: white;
+	font-size: 24px;
+}
+.about p{
+	color: #FFF;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+.about button{
+	background-color: #66cdab;
+	border: 1px solid white;
+}
+.about button:hover{
+	background: white;
+	color: #66cdab;
+}
+.about button a{
+	text-decoration: none;
+	color: inherit;
+}
+.about button a i {
+	padding-right: 5px;
+	font-size: 15px;
+	color: inherit;
+}
+.contact h3{
+	text-transform: uppercase;
+	font-size: 600;
+	color: inherit;
+	font-size: 2.5em;
+	margin-top: 80px; 
+}
+.about i{
+    font-size: 24px;
+}
+.contact input{
+	border-left: none;
+	border-right: none;
+	width: 100%;
+	border-radius: inherit;
+    display: block;
+}
+.contact input{
+	border-top: 1px solid inherit;
+	border-bottom: 1px solid inherit;
+}
+.center{
+	padding: 0% 25%;
+}
+.center hr{
+	margin: 0 !important;
+}
+.contact .message{
+	padding-bottom: 10%;
+}
+form{
+	margin-top: 30px;
+}
+.contact  form button {
+	margin-top: 30px;
+}
+.pd{
+	padding: 5% 20% 5% 3%;
+}
+.pt{
+	padding: 5% 20% 15% 3%;
+}
+.contact button{
+	margin-top: 10px;
+	margin-left: 8px;
+	background-color: #66cdab;
+}
+.contact button a{
+	text-decoration: none;
+	color: white;
+}
+.end {
+	background-color: rgba(27,33,51,0.89);
+	margin-top: 40px;
+	padding: 40px 0px;
+}
+.end i {
+	color: white;
+	background-color: rgba(27,33,51,0.89);
+	padding: 10px 3%;
+	border: 2px solid white;
+	border-radius: 100%;
+	margin: 0px 1%;
+}
+.end h4 {
+	color: white;
+}
+.end p{
+	color: white;
+}
+.end h4{
+	font-weight: 600;
+	margin: 10px 0px;
+}
+.bg-green-about{
+	background-color: #25B181;
+}
+.bg-green-about h2{
+	margin-top: 20px;
+	color: white;
+	font-size: 3em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bg-green-about img{
+	margin-top: 200px;
+}
+.bg-green-about i{
+	color: #FFFFFF;
+	font-size: 24px;
+	padding: 0% 0.5%;
+}
+.bg-green-about h4{
+	color: white;
+	margin-bottom: 70px;
+}
+footer {
+	background-color: rgba(28, 30, 35, 0.90);
+}
+footer h5{
+	color: white;
+}
+.text {
+	margin: 30px 0%;
+}
+.text .row{
+	margin: 20px 13%;
+}
+.text h4{
+	font-weight: 600;
+	font-size: 1.8em;
+}
+.body h3{
+	color: #25B181;
+	font-size: 2.7em;
+	font-weight: 600;
+}
+/*active*/
+#sidebar ul > li.active > a .arrow, #sidebar ul > li > a:hover .arrow, #sidebar ul > li > a:focus .arrow,
+    #sidebar > ul > li.active > a .arrow.open, #sidebar > ul > li > a:hover .arrow.open, #sidebar > ul > li > a:focus .arrow.open{
+        margin-top: 15px;
+    }
+.active{
+	background: rgba(5, 5, 16, 0.64);
+}
+
